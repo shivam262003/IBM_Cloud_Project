@@ -45,12 +45,6 @@ Historical fault occurrence data
 
 🔧 Installation
 
-Clone the repository
-bashgit clone https://github.com/shivamuniyal/power-system-fault-detection.git
-cd power-system-fault-detection
-
-Install required packages
-bashpip install -r requirements.txt
 
 Set up IBM Cloud credentials
 bash# Create .env file and add your IBM Cloud credentials
@@ -59,8 +53,8 @@ IBM_WATSON_ML_URL=your_watson_ml_url
 
 Download dataset
 
-Download the dataset from Kaggle
-Place it in the data/ directory
+Download the dataset from Kaggle:https://www.kaggle.com/datasets/ziya07/power-system-faults
+
 
 
 
@@ -113,8 +107,7 @@ power-system-fault-detection/
 ├── requirements.txt             # Python dependencies
 ├── README.md                    # Project documentation
 └── .env.example                 # Environment variables template
-🧪 Model Performance
-MetricScoreAccuracy95.2%Precision94.8%Recall95.1%F1-Score94.9%
+
 Note: Results may vary based on dataset and hyperparameter tuning
 📋 Algorithm Details
 Models Evaluated
